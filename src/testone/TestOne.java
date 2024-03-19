@@ -15,9 +15,17 @@ public class TestOne {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         System.out.println("Hello World");
         JOptionPane.showInputDialog(null,"Is this working?");
     }
     
+    private void HiWorld()
+    {
+        System.out.println("Hello World");
+    }        
+    
 }
+
+
